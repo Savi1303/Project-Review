@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@500;700&display=swap');
+
+* {
+    font-family: DM Sans, sans-serif;
+    font-weight: 500;
+    color: #FFFFFF;
+    
+}
+
+.body{
+    background: #2F1893;
+    width: 98.9%;
+
+}
+
+.navbar {
+    margin-top: 5vh;
+    margin-left: 190px;
+}
+
+.navbar-collapse {
+    margin-left: 120px;
+}
+
+.han {
+    color: #FFFFFF !important;
+}
+
+.har {
+    margin-top: 8vh;
+    margin-left: 32vh;
+    font-weight: 700;
+}
+
+.par {
+    margin-top: 3vh;
+    margin-left: 32vh;
+    opacity: 0.7;
+}
+.brn {
+    background: rgba(37, 218, 197, 1);
+    border: none;
+    outline: none;
+    box-shadow: none;
+    color: #fff;
+    width: 23vh;
+    border-radius: 100px;
+    padding: 13px 13px;
+}
+
+.drag {
+    margin-top: 8.5vh;
+}
+
+.sar {
+    opacity: 0.7;
+}
+
+.container {
+    margin-left: 4.5% !important;
+    margin-top: 5vh;
+}
+
+.imq {
+    width: 70%;
+    margin-bottom: 8vh;
+}
+
+@media (max-height: 599px), screen and (orientation :portrait) {
+
+    .navbar {
+        margin-top: 2vh;
+        margin-left: 2vh;
+    }
+
+    .navbar-collapse {
+        margin-left: 10px;
+    }
+
+    .har {
+        margin-top: 3vh;
+        margin-left: 4vh;
+    }
+
+    .par {
+        margin-left: 4vh;
+    }
+
+    .drag {
+        margin-top: 3vh;
+        margin-left: 4vh;
+    }
+
+    .imq{
+        width: 97%;
+        margin-left: -3vh;
+        margin-top: -5vh;
+    }
+    
+    .body{
+        width: 95%;
+    }
+
+}
