@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@500;700&display=swap');
+
+* {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 500
+}
+
+.navbar {
+    margin-top: -2vh;
+}
+
+.navbar-collapse {
+    margin-right: 10vh;
+}
+
+.nav-link, .hr {
+    color: rgba(30, 14, 98, 1) !important;
+}
+
+.btn-1 {
+    background: #fff;
+    color: rgba(30, 14, 98, 1);
+    outline: none;
+    box-shadow: none;
+    padding: 7px 10px;
+    border-radius: 80px;
+    border: 2px solid rgba(235, 234, 237, 1);
+    width: 16vh;
+}
+
+.hr {
+    font-weight: 700;
+    font-size: 7vh;
+    margin: 5vh 0vh 5vh 0vh;
+}
+
+.brn {
+    background: rgba(37, 218, 197, 1);
+    border: none;
+    outline: none;
+    box-shadow: none;
+    color: #fff;
+    width: 20vh;
+    border-radius: 80px;
+    padding: 10px 13px;
+}
+
+.imb {
+    width: 70%;
+}
+.imr {
+    width: 0%;
+}
+
+.prd {
+    border-right: 1px solid rgba(21, 20, 57, 0.4);
+    color: rgba(21, 20, 57, 0.4);
+}
+
+.owd {
+    color: rgba(21, 20, 57, 0.4);
+}
+
+@media (max-height: 599px), screen and (orientation :portrait) {
+    .hr {
+        font-size: 4.9vh;
+    }
+
+    .imb {
+        width: 100%;
+    }
+
+    .imr {
+        width: 30%;
+        margin-top: -3vh;
+    }
+
+    .prd {
+        border: none;
+    }
+    
+}
