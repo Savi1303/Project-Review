@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&display=swap');
+
+*{
+    font-family: DM Sans, sans-serif;
+    font-weight: 500;
+}
+
+.cort, .wad {
+     color: rgba(21, 20, 57, 0.4) !important;
+}
+
+.btn-1 {
+    background: rgba(37, 218, 197, 1);
+    color: #fff;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    padding: 7px 10px;
+    border-radius: 100px;
+}
+
+.pad {
+    margin-top: 60px;
+    color: rgba(30, 14, 98, 1);
+    font-size: 60px;
+}
+
+.wad {
+    margin-top: 20px;
+}
+
+.btn-2 {
+    background: rgba(37, 218, 197, 1);
+    color: #fff;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    padding: 15px 50px;
+    border-radius: 100px;
+    margin-top: 30px;
+}
+
+.hort {
+    color: rgba(37, 218, 197, 1);
+    margin-top: 20px;
+}
+
+@media (max-height: 599px), screen and (orientation :portrait) {
+    .navbar-collapse {
+        margin-left: 2vh;
+    }
+
+    .form-inline {
+        margin-top: -1vh !important;
+        margin-left: -2vh !important;
+    }
+    
+    .wad{
+        letter-spacing: -0.09em;
+    }
+
+}
