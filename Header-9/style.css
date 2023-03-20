@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@500;700&display=swap');
+
+* {
+    font-family: DM Sans, sans-serif;
+    font-weight: 500;
+}
+
+.navbar-collapse {
+    margin-left: 29vh;
+}
+
+.nab {
+    color: rgba(30, 14, 98, 1) !important;
+}
+
+.btn-1 {
+    background: #fff;
+    color: rgba(30, 14, 98, 1);
+    outline: none;
+    box-shadow: none;
+    padding: 7px 10px;
+    border-radius: 80px;
+    border: 2px solid rgba(235, 234, 237, 1);
+    width: 16vh;
+}
+
+.wad {
+    color: rgba(30, 14, 98, 1);
+    font-weight: 700;
+    font-size: 8vh;
+}
+
+.pad {
+    color: rgba(21, 20, 57, 0.4);
+}
+
+.btn-2 {
+    background: rgba(72, 43, 231, 1);
+    color: #fff;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    padding: 15px 50px;
+    border-radius: 100px;
+    margin-top: 30px;
+}
+
+.bar {
+    margin-top: 10vh;
+    margin-left: -29vh;
+}
+
+.tad {
+    margin-left: 19vh;
+}
+
+@media (max-height: 599px), screen and (orientation :portrait) {
+
+        
+    .navbar-collapse {
+        margin-left: 3vh;
+    }
+
+    .btn-1 {
+        margin-left: -2vh;
+    }
+
+    .ime {
+        width: 70%;
+        margin-left: 7vh;
+    }
+
+    .tad{ 
+        margin-left: 2vh;
+        margin-bottom: 5vh;
+        margin-top: -5vh;
+    }
+    .wad {
+        font-size: 40px;
+    }
+
+    .pad {
+        letter-spacing: -0.03em;
+    }
+
+    .nar {
+        margin-left: -5vh;
+    }
+
+    .btn-2{
+        margin-top: 0vh;
+    }
+}
